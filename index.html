@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Schedule</title>
     <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            min-width: 100px;
-        }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      min-width: 100px;
+      width: max-content;
+    }
+
+    td {
+      padding: 15px 20px;  
+    }
+
+    th {
+      background-color: lightgray;
+    }
+
     </style>
-</head>
+  </head>
 
 <body>
     <!-- Table 1 -->
@@ -164,6 +172,73 @@
             <td>Italian 2 <br>
                 Period 6 <br>
                 Room A117</td>
+        </tr>
+    </table>
+
+    <br>
+    <!-- Table 2 -->
+    <table style="display: inline-block; margin-top: 10px;">
+        <tr>
+            <th colspan="3">HALF DAY SCHEDULE</th>
+        </tr>
+        <tr>
+            <th> Block 1</th>
+            <td>7:30 AM</td>
+            <td>8:20 AM</td>
+        </tr>
+        <tr>
+            <th>Block 2</th>
+            <td>8:25 AM</td>
+            <td>9:15 AM</td>
+        </tr>
+        <tr>
+            <th>Block 3</th>
+            <td>9:20 AM</td>
+            <td>10:10 AM</td>
+        </tr>
+        <tr>
+            <th>Block 4</th>
+            <td>10:15 AM</td>
+            <td>11:05 AM</td>
+        </tr>
+        <tr>
+            <th>Block 5</th>
+            <td>11:10 AM</td>
+            <td>12:00 PM</td>
+        </tr>
+    </table>
+    <!-- Table 3 -->
+    <table style="display: inline-block; margin-top: 10px;">
+        <tr>
+            <th colspan="3">90 MIN DELAY SCHEDULE</th>
+        </tr>
+        <tr>
+            <th>Block 1</th>
+            <td>9:00 AM</td>
+            <td>9:50AM</td>
+        </tr>
+        <tr>
+            <th>Block 2</th>
+            <td>9:55 AM</td>
+            <td>10:45 AM</td>
+        </tr>
+        <tr>
+            <th>Block 3</th>
+            <td>10:50 AM</td>
+            <td>11:40 AM</td>
+        </tr>
+        <tr>
+            <th colspan="3">LUNCH</th>
+        </tr>
+        <tr>
+            <th>Block 4</th>
+            <td>12:21 PM</td>
+            <td>1:11 PM</td>
+        </tr>
+        <tr>
+            <th>Block 5</th>
+            <td>1:16 PM</td>
+            <td>2:06 PM</td>
         </tr>
     </table>
 </body>
